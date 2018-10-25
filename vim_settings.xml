@@ -1,0 +1,101 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="false" />
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/Desktop/proj/weixin/control/class/Approval.class.php" timestamp="1539853122160">
+        <mark key="[" line="137" column="101" />
+        <mark key="]" line="138" column="19" />
+        <mark key="^" line="138" column="19" />
+        <mark key="." line="138" column="19" />
+      </file>
+      <file name="$USER_HOME$/Desktop/proj/weixin/db/class/Approval.class.php" timestamp="1539834759550">
+        <mark key="'" line="154" column="20" />
+        <mark key="[" line="288" column="0" />
+        <mark key="]" line="288" column="47" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="153" column="0" filename="$USER_HOME$/Desktop/proj/weixin/db/class/Approval.class.php" />
+      <jump line="190" column="22" filename="$USER_HOME$/Desktop/proj/weixin/db/class/Approval.class.php" />
+      <jump line="154" column="20" filename="$USER_HOME$/Desktop/proj/weixin/db/class/Approval.class.php" />
+    </jumps>
+    <registers>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICByZXR1cm4gJHRoaXMtPmRidGFzay0+dXBkYXRlKCJ1cGRhdGUgJHRoaXMK</text>
+      </register>
+      <register name="-" type="4">
+        <text>)</text>
+      </register>
+      <register name="/" type="4">
+        <text>getMy</text>
+      </register>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAkcmV0ID0gJHRoaXMtPmRiVGFzay0+dXBkYXRlKCJ1cGRhdGUgJHRoaXMtPmFwcHJvdmFsX3RhYmxlIHNldCBGQXBwcm92YWxTdGF0dXMgPSAneyRuZXdTdGF0dXN9JyB3aGVyZSBGVGFza0FwcHJvdmFsSWQgPSAkdGFza0lkIik7Cg==</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICByZXR1cm4gJHRoaXMtPmRidGFzay0+dXBkYXRlKCJ1cGRhdGUgJHRoaXMK</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBleGl0Owo=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICB2YXJfZHVtcCgkaXBzKTsK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICBleGl0Owo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICB2YXJfZHVtcCgkbW9kdWxlSXBzKTsK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAkaXBzID0gZmlsdGVySXAoJGRhdGFbJ2lwJ10pOwo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBvRGF0KQo=</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICB2YXJfZHVtcCgkdmlldyk7ZXhpdDsK</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAkc2VuZGVyUnR4ID0gJHRoaXMtPnVzZXJOYW1lOwo=</text>
+      </register>
+      <register name=":" type="4">
+        <text>w</text>
+      </register>
+    </registers>
+    <search>
+      <last-search>getMy</last-search>
+      <last-offset />
+      <last-pattern>getMy</last-pattern>
+      <last-dir>1</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history>
+      <history-search>
+        <entry>get</entry>
+        <entry>getMy</entry>
+      </history-search>
+      <history-cmd>
+        <entry>q</entry>
+        <entry>action KJumpAction.Word0</entry>
+        <entry>action KJumpAction.Line</entry>
+        <entry>action KJumpAction</entry>
+        <entry>w</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed S</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed C</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+</application>

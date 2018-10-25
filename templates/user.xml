@@ -1,0 +1,13 @@
+<templateSet group="user">
+  <template name="qq" value="http://www.qq.com" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="cms" value="$var$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="enum(&quot;hello&quot;, &quot;world&quot;);" defaultValue="hello" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

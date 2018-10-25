@@ -1,0 +1,26 @@
+<scheme name="Mystyle" version="142" parent_scheme="Default">
+  <option name="FONT_SCALE" value="2.0" />
+  <option name="EDITOR_FONT_SIZE" value="33" />
+  <option name="CONSOLE_FONT_NAME" value="Monospaced" />
+  <option name="CONSOLE_FONT_SIZE" value="24" />
+  <option name="EDITOR_FONT_NAME" value="YaHei Consolas Hybrid" />
+  <colors>
+    <option name="SELECTION_BACKGROUND" value="5886ab" />
+  </colors>
+  <attributes>
+    <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="ff6d16" />
+        <option name="ERROR_STRIPE_COLOR" value="baa8ff" />
+      </value>
+    </option>
+    <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="b8083b" />
+        <option name="ERROR_STRIPE_COLOR" value="f0adf0" />
+      </value>
+    </option>
+  </attributes>
+</scheme>

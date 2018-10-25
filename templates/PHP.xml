@@ -1,0 +1,31 @@
+<templateSet group="PHP">
+  <template name="forloop" value="for ($i$ = 0; $i$ &lt; $N$; ++$i$) {&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="i" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="N" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="fi" value="for ($i$ = 0; $i$ &lt; $N$; $i$++) {&#10;    $END$&#10;}" description="for ($i$ = 0; $i$ &lt; $N$; $i$++)" toReformat="false" toShortenFQNames="true">
+    <variable name="i" expression="" defaultValue="&quot;$i&quot;" alwaysStopAt="true" />
+    <variable name="N" expression="" defaultValue="&quot;$N&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="vd" value="var_dump($VAR$);exit;" description="var_dump($VAR$);exit;" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ve" value="var_export($VAR$);exit;" description="var_export($VAR$);exit;" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="pr" value="print_r($VAR$);exit;" description="print_r($VAR$);exit;" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
