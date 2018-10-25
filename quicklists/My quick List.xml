@@ -1,0 +1,4 @@
+<list display="My quick List">
+  <action id="CheckinFiles" />
+  <action id="Vcs.ShowTabbedFileHistory" />
+</list>

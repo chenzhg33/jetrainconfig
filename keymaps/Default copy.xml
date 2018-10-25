@@ -18,9 +18,18 @@
   <action id="EditSource" />
   <action id="ExternalSystem.OpenConfig" />
   <action id="Graph.Faces.OpenSelectedPages" />
+  <action id="GuiDesigner.QuickJavadoc">
+    <mouse-shortcut keystroke="alt button2" />
+  </action>
   <action id="HippieCompletion" />
   <action id="Jdbc.OpenTableEditor" />
   <action id="OpenModuleSettings" />
+  <action id="QuickJavaDoc">
+    <mouse-shortcut keystroke="alt button2" />
+  </action>
+  <action id="QuickList.My quick List">
+    <keyboard-shortcut first-keystroke="ctrl q" />
+  </action>
   <action id="RemoteHostView.EditSource" />
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
