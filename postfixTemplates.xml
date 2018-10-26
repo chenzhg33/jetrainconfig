@@ -4,6 +4,10 @@
       <conditions />
       <template name="fakeKey" value="var_dump($EXPR$);exit;" toReformat="true" toShortenFQNames="true" />
     </template>
+    <template id="not@userDefined" key=".not" provider="builtin.php" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="if (! $EXPR$ ) {&#10;    $END$&#10;}" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="seteq@userDefined" key=".steq" provider="builtin.php" topmost="false">
       <conditions />
       <template name="fakeKey" value="if (isset($EXPR$) &amp;&amp; $EXPR$ == 0) {&#10;    $END$&#10;}" description="" toReformat="true" toShortenFQNames="true" />
@@ -18,6 +22,16 @@
     </template>
   </component>
   <component name="PostfixTemplatesSettings">
+    <option name="providerToDisabledTemplates">
+      <disabled-templates provider="builtin.php">
+        <value>
+          <set>
+            <option value="com.jetbrains.php.postfixCompletion.PhpNotPostfixTemplate#!" />
+            <option value="com.jetbrains.php.postfixCompletion.PhpNotPostfixTemplate#.not" />
+          </set>
+        </value>
+      </disabled-templates>
+    </option>
     <option name="shortcut" value="32" />
   </component>
 </application>
