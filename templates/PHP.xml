@@ -10,7 +10,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="vd" value="var_dump($VAR$);exit;" description="var_dump($VAR$);exit;" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="vd" value="var_dump($VAR$);exit;" description="var_dump($VAR$);exit;" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
